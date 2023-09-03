@@ -1,0 +1,150 @@
+/* cabecera*/
+.navegador {
+    display: flex;
+    align-content: center;
+}
+.Logo {
+    display: block;
+    width: 25% ;
+   margin-right: 50%;
+    background-position: center;
+    border-bottom: 50%;
+    border-radius: 50%;
+}
+body {
+    display: block;
+    margin: box;
+    background-color: rgba(42, 165, 165, 0.233);
+    }
+.container {
+    
+}
+/*hader*/
+.Aquí {
+    background-color: #dcd7c2;
+    padding: 15;
+    margin: 15;
+    font-size: 2rem;
+}
+
+.Titulo {
+    text-align: center;
+    background-color: #fa76d9;
+    padding: 1em;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    /*modificar pantalla*/
+
+.principal {
+    color: #141414;
+    background-image: url("../imagen/imagen\ fondo.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+    width: 80%;
+   text-decoration-color: rgb(1, 12, 22);
+    background-color: #ffc1b2d4;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 5px solid var(--color1);
+    text-align: center;
+}
+.principal .otro-titulo {
+    margin-bottom: 15px;
+    text-align: #111111;
+    font-size: 5rem;
+}
+.principal .subtitulo {
+    margin-bottom: 15px;
+    }  
+.individual .letra {
+    background-color: #fac6f7;
+    text-align: justify;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.Texto {
+    color: #111111;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-title {
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.card-text {
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+/* color de la pagina */
+:root {
+    --color1 :#9d9382 ;
+    --color2 :#ffc1b2 ;
+    --color3 :#e69c75 ;
+    --color4 :#fff6c7 ;
+    --color5 :#dcd7c2 ;
+}
+
+.necesitas {
+    font-size: 5rem;
+    border-width: 1px;
+    border: 5px;
+    background-color: #96d6f3;
+   }
+
+div.bordeinset{
+    border: 10px inset #3333ff;
+    background-color: #0000ff;
+ }
+.terapia{
+    font-size: 3rem;
+    font-style: oblique;
+}
+
+.formulario {
+    font-size: 2rem;
+    font-style: italic var(--color4);
+    
+}
+.yoga {
+    width: 30% ;
+    margin-left: 60%;
+}
+.footer  {
+    background: #ffc1b2;    
+    font-size: 3rem;
+    }
+
+
+    /*Estilos de Pantallas*/
+@media (min-width: 1024px) {
+        .cajas
+        font-size: 3rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+@media (min-width: 768px) {
+    body {
+        background-color: #fa76d9;
+    }
+    cajas {
+        font-size: 4rem;
+        grid-template-columns: ;
+    }
+}
+@media (min-width: 320px) {
+    body {
+        background-color: #bfadf3;
+    }
+    
+}
